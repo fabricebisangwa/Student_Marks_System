@@ -83,7 +83,10 @@ header("location:index.php");
                            elseif($avg >= 50) {
                           $decision = "Pass";
                          } 
-                          
+                         else 
+                         {
+                            $decision = "Repeat the Year";
+                         }
 
                              $decision = "Repeat the Year";
                           }
