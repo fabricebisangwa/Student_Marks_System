@@ -203,7 +203,9 @@ header("location:index.php");
 
                       }   
                        ?>
-                   
+</div>
+<a href="logout.php" class="badge badge-danger" style="font-size:1.3rem;">Back</a>
+    </div>                   
 
 
     </center>
