@@ -41,7 +41,7 @@ if (isset($_POST['add_student'])) {
       ':academic' => $acc_Year,
       ':level' => $level
       ]);
-  if($statu
+  if($status == 1)
   {
       $_SESSION['regno'] = $regno;
       $_SESSION['fname'] = $fname;
