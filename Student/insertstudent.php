@@ -6,7 +6,7 @@ if (isset($_POST['add_student'])) {
   $fname = $_POST['fname'];
   $lname = $_POST['lname'];
   $sex = $_POST['sex'];
-  
+  $depart = $_POST['depart']; 
   $academic = $_POST['academic'];
   $level = $_POST['level'];
 
