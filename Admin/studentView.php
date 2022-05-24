@@ -6,10 +6,10 @@ session_start();
 <div class="container w-50">
   <div class="card mt-5">
     <div class="card-header">
-      <h2>Student Info</h2>
+      <h2>Student Information</h2>
     </div>
     <div class="card-body">
-    <div class="alert alert-info">Account Created Succesful</div>
+    <div class="alert alert-info">Account is Created Succesful</div>
                
   <p>First Name : <strong><?php echo $_SESSION['fname'];  ?></strong></p>
   <hr>
