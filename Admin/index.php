@@ -9,7 +9,7 @@ $people = $statement->fetchAll(PDO::FETCH_OBJ);
 <div class="container">
   <div class="card mt-5">
     <div class="card-header">
-      <h2>All Students <a style="margin-left:900px;" href="logout.php">logout</a></h2>
+      <h2>All Students <a style="margin-left:900px;" href="logout.php">Logout</a></h2>
     </div>
     <div class="card-body">
       <table class="table table-bordered">
@@ -33,7 +33,9 @@ $people = $statement->fetchAll(PDO::FETCH_OBJ);
               <a onclick="return confirm('Are you sure you want to delete this entry?')" href="delete.php?id=<?= $person->regno ?>" class='btn btn-danger'>Delete</a>
             </td>
           </tr>
-        <?php endforeach; ?>
+        <?php 
+      endforeach; 
+      ?>
       </table>
     </div>
   </div>
