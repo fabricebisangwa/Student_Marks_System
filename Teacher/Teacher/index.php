@@ -164,7 +164,8 @@ $data = mysqli_query($conn, $query);
                                             </td>
                                         </tr>
                                     </tbody>
-                                <?php } ?>
+                                <?php 
+                            } ?>
                                 </table>
                             </div>
                         </div>
@@ -203,10 +204,8 @@ else
       echo "<script>window.alert('No Techer Found);</script>";   
 }
    $data1 = mysqli_query($conn, $query1);
-   if($data1 > 0)
-   
+   if($data1 > 0)  
    }
-
 }
 ?> 
                 </div>
